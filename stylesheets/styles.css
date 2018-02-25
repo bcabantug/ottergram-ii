@@ -107,41 +107,38 @@ a {
 }
 
 /*(min-width: 765px) and*/
-@media all and (orientation: portrait){
-  .main-content{
+
+@media all and (orientation: portrait) {
+  .main-content {
     flex-direction: row;
     overflow: hidden;
   }
-
-  .thumbnail-list{
+  .thumbnail-list {
     flex-direction: column;
     order: 0;
     margin-left: 20px;
-
   }
-
-  .thumbnail-item{
-    max-width:260px;
+  .thumbnail-item {
+    max-width: 260px;
   }
-
-  .thumbnail-item + .thumbnail-list{
+  .thumbnail-item+.thumbnail-list {
     margin-top: 20px;
   }
 }
 
-
 /*button overlay css*/
-.left-button-overlay{
+
+.left-button-overlay {
   font-size: 20px;
   font-family: airstreamregular;
-  
 }
-.right-button-overlay{
+
+.right-button-overlay {
   font-size: 20px;
   font-family: airstreamregular;
   order: 1;
 }
 
-button{
+button {
   font-family: airstreamregular;
 }
