@@ -128,3 +128,20 @@ a {
     margin-top: 20px;
   }
 }
+
+
+/*button overlay css*/
+.left-button-overlay{
+  font-size: 20px;
+  font-family: airstreamregular;
+  
+}
+.right-button-overlay{
+  font-size: 20px;
+  font-family: airstreamregular;
+  order: 1;
+}
+
+button{
+  font-family: airstreamregular;
+}
