@@ -105,3 +105,26 @@ a {
 .detail-image {
   width: 90%;
 }
+
+/*(min-width: 765px) and*/
+@media all and (orientation: portrait){
+  .main-content{
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .thumbnail-list{
+    flex-direction: column;
+    order: 0;
+    margin-left: 20px;
+
+  }
+
+  .thumbnail-item{
+    max-width:260px;
+  }
+
+  .thumbnail-item + .thumbnail-list{
+    margin-top: 20px;
+  }
+}
